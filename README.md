@@ -1,5 +1,8 @@
 # FastTextDiff: A Fast and Efficient Modern BERT based Text-Conditioned Diffusion Model for Medical Image Segmentation
 
+> **Publication Status**: Accepted at **CVIP 2025** (Computer Vision & Image Processing)  
+> **Paper**: Will be published soon | **ArXiv**: Link will be shared upon publication
+
 ## Authors
 - **Venkata Siddharth Dhara**, IIIT Hyderabad
 - **Pawan Kumar**, IIIT Hyderabad
@@ -308,5 +311,25 @@ This will install the package and make command-line tools available:
 fasttextdiff-train --exp experiments/monuseg_2/ddpm.json
 fasttextdiff-eval --exp experiments/monuseg_2/ddpm.json --checkpoint model.pth
 ```
+
+## Citation
+
+If you use FastTextDiff in your research, please cite our paper:
+
+```bibtex
+@inproceedings{dhara2025fasttextdiff,
+  title={FastTextDiff: A Fast and Efficient Modern BERT based Text-Conditioned Diffusion Model for Medical Image Segmentation},
+  author={Dhara, Venkata Siddharth and Kumar, Pawan},
+  booktitle={Computer Vision \& Image Processing (CVIP)},
+  year={2025},
+  note={Accepted for publication}
+}
+```
+
+*Note: Full citation details will be updated upon publication.*
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
